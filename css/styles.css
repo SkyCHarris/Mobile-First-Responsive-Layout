@@ -1,6 +1,101 @@
-/* Add font-family */
+/* Base Element Styles */
+
+body {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.portfolio {
+    background-color: white;
+}
 
 img {
     max-width: 100%;
+}
+
+/* Header Container */
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav li {
+    background-color: white;
+    text-decoration: none;
+    color: grey;
+    margin: 3px;
+    padding: 5px;
+    list-style-type: none;
+    display: block; 
+    /* later media queries will likely use inline-block */
+}
+
+.main-nav a:visited{
+    color: darkslategray;
+
+}
+
+.main-nav ul {
+    padding: 10px;
+
+}
+
+/* Skills Container */
+
+.skills li {
+    background-color:  lightgray;
+    display: block;
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 2px 2px 2px grey; 
+}
+
+.skills ul {
+    padding: 5px;
+}
+
+/* Experience Container */
+
+.beijing_smash {
+    max-width: 40%;
+    max-height: 40%;
+    margin-top: 1.5em;
+}
+
+.bytedance, .vipkid {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+/* Foooter Container */
+
+.main-footer li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: .75em;
+}
+
+.main-footer {}
+.student-name {
+    float: left;
+    font-size: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .col_one {
+        width: 50%;
+        float: left;
+        clear: both;
+    }
+    .col_two {
+        width: 50%;
+        float: right;
+    }
  
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+    }
 }
