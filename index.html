@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile-First-Responsive-Layout</title>
     <link href="css/styles.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+   </style>
 </head>
 
-<body>
-    <a name="top"></a>
+<body id="home">
     <header>
         <div>
         <h1>Sky Harris</h1>
@@ -24,8 +27,8 @@
         <img src="images/responsive-layout-profile.png" alt="Profile Picture">
         <p>I'm Sky Harris, a front-end developer who specilizes in responsive design and CSS layout techniques. I love a good challenge and a gorgeous finished product.</p>
     </header>
-    <main class="portfolio" id="portfolio">
-        <h3>Portfolio</h3>
+    <h3>Portfolio</h3>
+    <main class="portfolio" id="portfolio">       
         <div class="marketing-page">
             <img src="images/portfolio-1.png" alt="Marketing Page Thumbnail">
             <h3>Marketing Page</h3>
@@ -74,14 +77,12 @@
                 <li>Vue</li>
             </ul>
             </div>
-            <!-- Two columns with skills in uls? -->
         </div>
         <div class="experience" id="experience">
             <h3>Experience</h3>
             <img class="bytedance" src="images/bytedance_logo.png" alt="Bytedance TikTok Logo">
             <img class="beijing_smash" src="images/beijing_smash_logo.png" alt="Beijing Smashbros Logo">
             <img class="vipkid" src="images/vipkid_logo1.png" alt="VIPKid Logo">
-            <!-- Logos for major companies I have experience with -->
         </div>
         <div class="contact" id="contact">
             <h3>Contact</h3>
@@ -94,10 +95,9 @@
         <div class="main-footer">
             <p class="student-name">Sky Harris</p>
             <ul>
-                <li><a href="#top"></a>Home</li>
-                <!-- Link broken? -->
+                <li><a href="#top">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#skills">Skills & Experience</a></li>
+                <li><a href="#skills">Skills/Exp</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>

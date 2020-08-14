@@ -1,12 +1,30 @@
+/* Web Fonts */
+
+@font-face {}
+
 /* Base Element Styles */
 
 body {
     background-color: #f2f2f2;
     text-align: center;
+    font-family: 'Teko', sans-serif;
 }
+
+h1, h2, h3 {
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: .1em;
+}
+
 .portfolio {
     background-color: white;
+    border-radius: 3px;
 }
+/* Fix display (padding/margins) in 320px */
+/* Give class or id to 'calculator' p element? */
+/* p {
+    padding: 2em, 3em; 
+    margin-bottom: 10px;
+} */
 
 img {
     max-width: 100%;
@@ -14,22 +32,13 @@ img {
 
 /* Header Container */
 
-.main-nav a {
+a {
     text-decoration: none;
+    color: rgb(110, 110, 110);
 }
 
-.main-nav li {
-    background-color: white;
-    text-decoration: none;
-    color: grey;
-    margin: 3px;
-    padding: 5px;
-    list-style-type: none;
-    display: block; 
-    /* later media queries will likely use inline-block */
-}
 
-.main-nav a:visited{
+a:visited{
     color: darkslategray;
 
 }
@@ -69,17 +78,28 @@ img {
 
 /* Foooter Container */
 
+.main-footer {
+    overflow: hidden;
+}
+
 .main-footer li {
     display: inline-block;
     text-decoration: none;
-    font-size: .75em;
 }
 
-.main-footer {}
-.student-name {
-    float: left;
-    font-size: 10px;
+.main-footer li a {
+    margin: .2em .5em;
 }
+.main-footer ul {
+    float: right;
+}
+
+/* Get student-name to line up with .main-footer li a */
+.student-name {
+   
+    float: left;
+}
+
 
 @media (min-width: 768px) {
 
