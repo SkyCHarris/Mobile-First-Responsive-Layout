@@ -281,6 +281,8 @@ a:visited{
 
 @media (min-width: 1024px) {
 
+    /* Header */
+
     #student-name {
         float: left;
         display: inline-block;
@@ -292,6 +294,65 @@ a:visited{
         display: inline-block;
         margin-right: 10px;
     }
+
+    /* Portfolio */
+
+    .portfolio {
+       overflow: hidden;
+       margin: 10px auto;
+       box-sizing: border-box;
+   }
+
+    .marketing-page {
+        width: 33%;
+        float: left;
+        margin-right: .5%;
+    }
+
+    .search-page {
+        width: 33%;
+        float: left;
+        margin-right: .5%;
+    }
+
+    .travel-app {
+        width: 33%;
+        float: left;
+    }
+
+    .map-of-favorite-spots {
+        width: 33%;
+        float: left;
+        margin-right: .5%;
+    }
+
+    .photo-gallery {
+        width: 33%;
+        float: left;
+        margin-right: .5%;
+    }
+    
+    .calculator {
+        width: 33%;
+        float: left;
+    }
+
+    /* Skills */
+    
+    .skills {
+        overflow: hidden;
+        margin: 30px 15px;
+}
+
+    .col_one {
+        width: 50%;
+        float: left;
+}
+
+    .col_two {
+        width: 50%;
+        float: right;
+}
 
 }
 
