@@ -15,10 +15,17 @@ h1, h2, h3 {
     letter-spacing: .1em;
 }
 
+.portfolio-paragraph {
+    padding: 10px;
+
+}
+
 .portfolio {
     background-color: white;
     border-radius: 3px;
 }
+
+
 /* Fix display (padding/margins) in 320px */
 /* Give class or id to 'calculator' p element? */
 /* p {
@@ -37,7 +44,13 @@ a {
     color: rgb(110, 110, 110);
 }
 
+ul {
+    list-style-type: none;
+}
 
+li {
+    list-style-type: none;
+}
 a:visited{
     color: darkslategray;
 
@@ -80,25 +93,37 @@ a:visited{
 
 .main-footer {
     overflow: hidden;
+    border-top: 1px solid darkslategray;
 }
 
-.main-footer li {
-    display: inline-block;
+.main-footer li.links {
+    display: none;
     text-decoration: none;
 }
 
 .main-footer li a {
     margin: .2em .5em;
+    list-style-type: none;
+
 }
 .main-footer ul {
     float: right;
 }
 
-/* Get student-name to line up with .main-footer li a */
-.student-name {
-   
+#footer-student-name {
     float: left;
+    margin: 1em;
 }
+
+#footer-back-to-top {
+    float: right;
+    margin: 1em;
+}
+
+
+
+/* Get student-name to line up with .main-footer li a */
+/* ABSOLUTE POSITIONING! */
 
 
 @media (min-width: 768px) {

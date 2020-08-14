@@ -14,7 +14,7 @@
 <body id="home">
     <header>
         <div>
-        <h1>Sky Harris</h1>
+        <h1 id="student-name">Sky Harris</h1>
         <nav class="main-nav">
            <ul>
                <li><a href="#top">Home</a></li>
@@ -27,37 +27,37 @@
         <img src="images/responsive-layout-profile.png" alt="Profile Picture">
         <p>I'm Sky Harris, a front-end developer who specilizes in responsive design and CSS layout techniques. I love a good challenge and a gorgeous finished product.</p>
     </header>
-    <h3>Portfolio</h3>
-    <main class="portfolio" id="portfolio">       
+    <h3 id ="portfolio">Portfolio</h3>
+    <main class="portfolio">     
         <div class="marketing-page">
             <img src="images/portfolio-1.png" alt="Marketing Page Thumbnail">
             <h3>Marketing Page</h3>
-            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+            <p class="portfolio-paragraph">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
         </div>
         <div class="search-page">
             <img src="images/portfolio-2.png"  alt="Search Page Thumbnail">
             <h3>Search Page</h3>
-            <p>This project searches through a specific database to find onformation that the user is trying to look up.</p>
+            <p class="portfolio-paragraph">This project searches through a specific database to find onformation that the user is trying to look up.</p>
         </div>
         <div class="travel-app">
             <img src="images/portfolio-3.png" alt="Travel App Thumbnail">
             <h3>Travel App</h3>
-            <p>This project compares travel times based on different transportation methods and tells yout he best one.</p>
+            <p class="portfolio-paragraph">This project compares travel times based on different transportation methods and tells yout he best one.</p>
         </div>
         <div class="map-of-favorite-spots">
             <img src="images/portfolio-4.png" alt="Map of Favorite Spots">
             <h3>Map of Favorite Spots</h3>
-            <p>This project uses mapping apis to plot points for my favoirte spots in the city for a do-it-yourself walking tour.</p>
+            <p class="portfolio-paragraph">This project uses mapping apis to plot points for my favoirte spots in the city for a do-it-yourself walking tour.</p>
         </div>
         <div class="photo-gallery">
             <img src="images/portfolio-5.png" alt="Photo Gallery">
             <h3>Photo Gallery</h3>
-            <p>This project shows picutres from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            <p class="portfolio-paragraph">This project shows picutres from a recent trip to the viewer and allows them to easily navigate through photos.</p>
         </div>
         <div class="calculator">
             <img src="images/portfolio-6.png" alt="Calculator">
             <h3>Calculator</h3>
-            <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            <p class="portfolio-paragraph">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
         </div>
     </main>  <!-- portfolio 'container' -->
 
@@ -93,12 +93,13 @@
 
     <footer>
         <div class="main-footer">
-            <p class="student-name">Sky Harris</p>
+            <li id="footer-student-name"><a href="#student-name">Sky Harris</a><li>
+            <li id="footer-back-to-top"><a href="#top">Back to Top</a></li>
             <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#skills">Skills/Exp</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="links"><a href="#top">Home</a></li>
+                <li class="links"><a href="#portfolio">Portfolio</a></li>
+                <li class="links"><a href="#skills">Skills/Exp</a></li>
+                <li class="links"><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </footer>
