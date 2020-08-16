@@ -15,7 +15,6 @@ h1, h2, h3 {
 
 .portfolio-paragraph {
     padding-top: 10px;
-
 }
 
 .portfolio {
@@ -48,6 +47,7 @@ ul {
 li {
     list-style-type: none;
 }
+
 a:visited{
     color: darkslategray;
 }
@@ -104,8 +104,8 @@ a:visited{
 .main-footer li a {
     margin: .2em .5em;
     list-style-type: none;
-
 }
+
 .main-footer ul {
     float: right;
 }
@@ -198,17 +198,17 @@ a:visited{
     .skills {
         overflow: hidden;
         margin: 30px 15px;
-}
+    }
 
     .col_one {
         width: 50%;
         float: left;
-}
+    }
 
     .col_two {
         width: 50%;
         float: right;
-}
+    }
 
     /* Experience */
 
@@ -252,7 +252,7 @@ a:visited{
 
     .contact-paragraph-one {
         margin: 20px auto;
-
+    }
     /* Footer */   
 
     #footer-student-name {
@@ -270,9 +270,11 @@ a:visited{
         color: black;
         font-weight: bold;
     }
+
     .main-footer li.links:visited {
         color: darkslategray;
     }
+}
 
 @media (min-width: 1024px) {
 
@@ -337,17 +339,17 @@ a:visited{
     .skills {
         overflow: hidden;
         margin: 30px 15px;
-}
+    }
 
     .col_one {
         width: 50%;
         float: left;
-}
+    }
 
     .col_two {
         width: 50%;
         float: right;
-}
+    }
 
 }
 
