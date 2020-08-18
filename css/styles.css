@@ -1,11 +1,14 @@
 
+
+/* After running my CSS through the validation site you suggested, I was told there were no CSS errors. I may require some extra assitance or clarification on this. */
+
 /* Base Element Styles */
 
 body {
     background-color: #f2f2f2;
     text-align: center;
     font-family: 'Teko', sans-serif;
-    letter-spacing: .05em;
+    letter-spacing: .06em;
 }
 
 h1, h2, h3 {
